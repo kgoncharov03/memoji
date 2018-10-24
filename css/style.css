@@ -1,0 +1,40 @@
+body {
+    background-color: #CFD0CF;
+}
+
+h1 {
+  line-height: 47px;
+  font-size: 42px;
+  font-family: Arial;
+  text-align: center;
+  margin: 40px;
+}
+
+.card {
+  box-sizing: border-box;
+  border: 5px solid white;
+  border-radius: 9px;
+  background: linear-gradient(to right top, #22AB93, #19668D);
+  width: 130px;
+  height: 130px;
+  margin: 12.5px;
+  text-align: center;
+  font-size: 75px;
+  line-height: 120px;
+}
+
+.card.selected {
+  background: white;
+}
+
+.card.deleted {
+  visibility: hidden;
+}
+
+#game {
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
